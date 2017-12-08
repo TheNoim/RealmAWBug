@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB167FEA1FDB138400881C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB167FE91FDB138400881C76 /* AppDelegate.swift */; };
+		FB167FEC1FDB138400881C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB167FEB1FDB138400881C76 /* ViewController.swift */; };
+		FB167FEF1FDB138400881C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB167FED1FDB138400881C76 /* Main.storyboard */; };
+		FB167FF11FDB138400881C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB167FF01FDB138400881C76 /* Assets.xcassets */; };
+		FB167FF41FDB138400881C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB167FF21FDB138400881C76 /* LaunchScreen.storyboard */; };
+		FB167FF91FDB138400881C76 /* RealmAWBug WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB167FF81FDB138400881C76 /* RealmAWBug WatchKit App.app */; };
+		FB167FFF1FDB138400881C76 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB167FFD1FDB138400881C76 /* Interface.storyboard */; };
+		FB1680011FDB138400881C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1680001FDB138400881C76 /* Assets.xcassets */; };
+		FB1680081FDB138400881C76 /* RealmAWBug WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB1680071FDB138400881C76 /* RealmAWBug WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB16800D1FDB138400881C76 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16800C1FDB138400881C76 /* InterfaceController.swift */; };
+		FB16800F1FDB138400881C76 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16800E1FDB138400881C76 /* ExtensionDelegate.swift */; };
+		FB1680111FDB138400881C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1680101FDB138400881C76 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB167FFA1FDB138400881C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB167FDE1FDB138400881C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB167FF71FDB138400881C76;
+			remoteInfo = "RealmAWBug WatchKit App";
+		};
+		FB1680091FDB138400881C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB167FDE1FDB138400881C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1680061FDB138400881C76;
+			remoteInfo = "RealmAWBug WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB1680181FDB138400881C76 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB1680081FDB138400881C76 /* RealmAWBug WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB16801C1FDB138400881C76 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FB167FF91FDB138400881C76 /* RealmAWBug WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB167FE61FDB138400881C76 /* RealmAWBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmAWBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB167FE91FDB138400881C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB167FEB1FDB138400881C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB167FEE1FDB138400881C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB167FF01FDB138400881C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB167FF31FDB138400881C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB167FF51FDB138400881C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB167FF81FDB138400881C76 /* RealmAWBug WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealmAWBug WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB167FFE1FDB138400881C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FB1680001FDB138400881C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1680021FDB138400881C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1680071FDB138400881C76 /* RealmAWBug WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RealmAWBug WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB16800C1FDB138400881C76 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FB16800E1FDB138400881C76 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FB1680101FDB138400881C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1680121FDB138400881C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB167FE31FDB138400881C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1680041FDB138400881C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB167FDD1FDB138400881C76 = {
+			isa = PBXGroup;
+			children = (
+				FB167FE81FDB138400881C76 /* RealmAWBug */,
+				FB167FFC1FDB138400881C76 /* RealmAWBug WatchKit App */,
+				FB16800B1FDB138400881C76 /* RealmAWBug WatchKit Extension */,
+				FB167FE71FDB138400881C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB167FE71FDB138400881C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB167FE61FDB138400881C76 /* RealmAWBug.app */,
+				FB167FF81FDB138400881C76 /* RealmAWBug WatchKit App.app */,
+				FB1680071FDB138400881C76 /* RealmAWBug WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB167FE81FDB138400881C76 /* RealmAWBug */ = {
+			isa = PBXGroup;
+			children = (
+				FB167FE91FDB138400881C76 /* AppDelegate.swift */,
+				FB167FEB1FDB138400881C76 /* ViewController.swift */,
+				FB167FED1FDB138400881C76 /* Main.storyboard */,
+				FB167FF01FDB138400881C76 /* Assets.xcassets */,
+				FB167FF21FDB138400881C76 /* LaunchScreen.storyboard */,
+				FB167FF51FDB138400881C76 /* Info.plist */,
+			);
+			path = RealmAWBug;
+			sourceTree = "<group>";
+		};
+		FB167FFC1FDB138400881C76 /* RealmAWBug WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FB167FFD1FDB138400881C76 /* Interface.storyboard */,
+				FB1680001FDB138400881C76 /* Assets.xcassets */,
+				FB1680021FDB138400881C76 /* Info.plist */,
+			);
+			path = "RealmAWBug WatchKit App";
+			sourceTree = "<group>";
+		};
+		FB16800B1FDB138400881C76 /* RealmAWBug WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB16800C1FDB138400881C76 /* InterfaceController.swift */,
+				FB16800E1FDB138400881C76 /* ExtensionDelegate.swift */,
+				FB1680101FDB138400881C76 /* Assets.xcassets */,
+				FB1680121FDB138400881C76 /* Info.plist */,
+			);
+			path = "RealmAWBug WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB167FE51FDB138400881C76 /* RealmAWBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB16801D1FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug" */;
+			buildPhases = (
+				FB167FE21FDB138400881C76 /* Sources */,
+				FB167FE31FDB138400881C76 /* Frameworks */,
+				FB167FE41FDB138400881C76 /* Resources */,
+				FB16801C1FDB138400881C76 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB167FFB1FDB138400881C76 /* PBXTargetDependency */,
+			);
+			name = RealmAWBug;
+			productName = RealmAWBug;
+			productReference = FB167FE61FDB138400881C76 /* RealmAWBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB167FF71FDB138400881C76 /* RealmAWBug WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1680191FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug WatchKit App" */;
+			buildPhases = (
+				FB167FF61FDB138400881C76 /* Resources */,
+				FB1680181FDB138400881C76 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB16800A1FDB138400881C76 /* PBXTargetDependency */,
+			);
+			name = "RealmAWBug WatchKit App";
+			productName = "RealmAWBug WatchKit App";
+			productReference = FB167FF81FDB138400881C76 /* RealmAWBug WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FB1680061FDB138400881C76 /* RealmAWBug WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1680151FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug WatchKit Extension" */;
+			buildPhases = (
+				FB1680031FDB138400881C76 /* Sources */,
+				FB1680041FDB138400881C76 /* Frameworks */,
+				FB1680051FDB138400881C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RealmAWBug WatchKit Extension";
+			productName = "RealmAWBug WatchKit Extension";
+			productReference = FB1680071FDB138400881C76 /* RealmAWBug WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB167FDE1FDB138400881C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Noim;
+				TargetAttributes = {
+					FB167FE51FDB138400881C76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB167FF71FDB138400881C76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB1680061FDB138400881C76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB167FE11FDB138400881C76 /* Build configuration list for PBXProject "RealmAWBug" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB167FDD1FDB138400881C76;
+			productRefGroup = FB167FE71FDB138400881C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB167FE51FDB138400881C76 /* RealmAWBug */,
+				FB167FF71FDB138400881C76 /* RealmAWBug WatchKit App */,
+				FB1680061FDB138400881C76 /* RealmAWBug WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB167FE41FDB138400881C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB167FF41FDB138400881C76 /* LaunchScreen.storyboard in Resources */,
+				FB167FF11FDB138400881C76 /* Assets.xcassets in Resources */,
+				FB167FEF1FDB138400881C76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB167FF61FDB138400881C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1680011FDB138400881C76 /* Assets.xcassets in Resources */,
+				FB167FFF1FDB138400881C76 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1680051FDB138400881C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1680111FDB138400881C76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB167FE21FDB138400881C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB167FEC1FDB138400881C76 /* ViewController.swift in Sources */,
+				FB167FEA1FDB138400881C76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1680031FDB138400881C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB16800F1FDB138400881C76 /* ExtensionDelegate.swift in Sources */,
+				FB16800D1FDB138400881C76 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB167FFB1FDB138400881C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB167FF71FDB138400881C76 /* RealmAWBug WatchKit App */;
+			targetProxy = FB167FFA1FDB138400881C76 /* PBXContainerItemProxy */;
+		};
+		FB16800A1FDB138400881C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1680061FDB138400881C76 /* RealmAWBug WatchKit Extension */;
+			targetProxy = FB1680091FDB138400881C76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB167FED1FDB138400881C76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB167FEE1FDB138400881C76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB167FF21FDB138400881C76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB167FF31FDB138400881C76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB167FFD1FDB138400881C76 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB167FFE1FDB138400881C76 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB1680131FDB138400881C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB1680141FDB138400881C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1680161FDB138400881C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZXX8B8FA4;
+				INFOPLIST_FILE = "RealmAWBug WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.noim.RealmAWBug.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		FB1680171FDB138400881C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZXX8B8FA4;
+				INFOPLIST_FILE = "RealmAWBug WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.noim.RealmAWBug.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		FB16801A1FDB138400881C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZXX8B8FA4;
+				IBSC_MODULE = RealmAWBug_WatchKit_Extension;
+				INFOPLIST_FILE = "RealmAWBug WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.noim.RealmAWBug.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		FB16801B1FDB138400881C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZXX8B8FA4;
+				IBSC_MODULE = RealmAWBug_WatchKit_Extension;
+				INFOPLIST_FILE = "RealmAWBug WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.noim.RealmAWBug.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		FB16801E1FDB138400881C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZXX8B8FA4;
+				INFOPLIST_FILE = RealmAWBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.noim.RealmAWBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB16801F1FDB138400881C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZXX8B8FA4;
+				INFOPLIST_FILE = RealmAWBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.noim.RealmAWBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB167FE11FDB138400881C76 /* Build configuration list for PBXProject "RealmAWBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1680131FDB138400881C76 /* Debug */,
+				FB1680141FDB138400881C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1680151FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1680161FDB138400881C76 /* Debug */,
+				FB1680171FDB138400881C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1680191FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB16801A1FDB138400881C76 /* Debug */,
+				FB16801B1FDB138400881C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB16801D1FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB16801E1FDB138400881C76 /* Debug */,
+				FB16801F1FDB138400881C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB167FDE1FDB138400881C76 /* Project object */;
+}
