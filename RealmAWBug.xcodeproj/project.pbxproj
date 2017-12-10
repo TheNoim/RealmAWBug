@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63C6E1EA1AC9BA9A80228DD4 /* Pods_RealmAWBug_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42052E04DB89BB4893F360EA /* Pods_RealmAWBug_WatchKit_App.framework */; };
+		8C8EA6185A2B30B72DEEE98D /* Pods_RealmAWBug_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB4A4E1E2CC28DE08AA7E4 /* Pods_RealmAWBug_WatchKit_Extension.framework */; };
+		E5E38D5B2AD7477C6194520D /* Pods_RealmAWBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CE1CA1A86D490F30E695BB /* Pods_RealmAWBug.framework */; };
 		FB167FEA1FDB138400881C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB167FE91FDB138400881C76 /* AppDelegate.swift */; };
 		FB167FEC1FDB138400881C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB167FEB1FDB138400881C76 /* ViewController.swift */; };
 		FB167FEF1FDB138400881C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB167FED1FDB138400881C76 /* Main.storyboard */; };
@@ -19,6 +22,14 @@
 		FB16800D1FDB138400881C76 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16800C1FDB138400881C76 /* InterfaceController.swift */; };
 		FB16800F1FDB138400881C76 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16800E1FDB138400881C76 /* ExtensionDelegate.swift */; };
 		FB1680111FDB138400881C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1680101FDB138400881C76 /* Assets.xcassets */; };
+		FB1680251FDB185900881C76 /* CreateBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1680241FDB185900881C76 /* CreateBridge.m */; };
+		FBE80D881FDC1EAC004C2371 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE80D871FDC1EAC004C2371 /* Share.swift */; };
+		FBE80D941FDC6B7D004C2371 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE80D8E1FDC6B7D004C2371 /* Lesson.swift */; };
+		FBE80D951FDC6B7D004C2371 /* Timegrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE80D8F1FDC6B7D004C2371 /* Timegrid.swift */; };
+		FBE80D961FDC6B7D004C2371 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE80D901FDC6B7D004C2371 /* Teacher.swift */; };
+		FBE80D971FDC6B7D004C2371 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE80D911FDC6B7D004C2371 /* Room.swift */; };
+		FBE80D981FDC6B7D004C2371 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE80D921FDC6B7D004C2371 /* Subject.swift */; };
+		FBE80D991FDC6B7D004C2371 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE80D931FDC6B7D004C2371 /* Class.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +75,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1726D736BA1F49F7B9EBEE76 /* Pods-RealmAWBug WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAWBug WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmAWBug WatchKit App/Pods-RealmAWBug WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		216BC0E63AFB93516A05A73A /* Pods-RealmAWBug WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAWBug WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmAWBug WatchKit Extension/Pods-RealmAWBug WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		42052E04DB89BB4893F360EA /* Pods_RealmAWBug_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmAWBug_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4725E9D9186A5E09612ADE76 /* Pods-RealmAWBug WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAWBug WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmAWBug WatchKit Extension/Pods-RealmAWBug WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		7A85BFDDEEB71B3CF3979914 /* Pods-RealmAWBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAWBug.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmAWBug/Pods-RealmAWBug.release.xcconfig"; sourceTree = "<group>"; };
+		D34F839B711E97D7A2B9D480 /* Pods-RealmAWBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAWBug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmAWBug/Pods-RealmAWBug.debug.xcconfig"; sourceTree = "<group>"; };
+		D6CE1CA1A86D490F30E695BB /* Pods_RealmAWBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmAWBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FB4A4E1E2CC28DE08AA7E4 /* Pods_RealmAWBug_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmAWBug_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF5F260F657DBF6DDE2922D /* Pods-RealmAWBug WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAWBug WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmAWBug WatchKit App/Pods-RealmAWBug WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		FB167FE61FDB138400881C76 /* RealmAWBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmAWBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB167FE91FDB138400881C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB167FEB1FDB138400881C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,13 +100,32 @@
 		FB16800E1FDB138400881C76 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		FB1680101FDB138400881C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1680121FDB138400881C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1680231FDB185800881C76 /* RealmAWBug-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealmAWBug-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB1680241FDB185900881C76 /* CreateBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateBridge.m; sourceTree = "<group>"; };
+		FB95881D1FDD5799004439D7 /* RealmAWBug WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RealmAWBug WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		FBE80D871FDC1EAC004C2371 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		FBE80D8E1FDC6B7D004C2371 /* Lesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		FBE80D8F1FDC6B7D004C2371 /* Timegrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timegrid.swift; sourceTree = "<group>"; };
+		FBE80D901FDC6B7D004C2371 /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		FBE80D911FDC6B7D004C2371 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		FBE80D921FDC6B7D004C2371 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		FBE80D931FDC6B7D004C2371 /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A760513191DE9EDB2FE2BD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C6E1EA1AC9BA9A80228DD4 /* Pods_RealmAWBug_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB167FE31FDB138400881C76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E38D5B2AD7477C6194520D /* Pods_RealmAWBug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +133,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8EA6185A2B30B72DEEE98D /* Pods_RealmAWBug_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A65C948E5CF0DF65CF98BAE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D34F839B711E97D7A2B9D480 /* Pods-RealmAWBug.debug.xcconfig */,
+				7A85BFDDEEB71B3CF3979914 /* Pods-RealmAWBug.release.xcconfig */,
+				1726D736BA1F49F7B9EBEE76 /* Pods-RealmAWBug WatchKit App.debug.xcconfig */,
+				DFF5F260F657DBF6DDE2922D /* Pods-RealmAWBug WatchKit App.release.xcconfig */,
+				216BC0E63AFB93516A05A73A /* Pods-RealmAWBug WatchKit Extension.debug.xcconfig */,
+				4725E9D9186A5E09612ADE76 /* Pods-RealmAWBug WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9CF7326F5E6FC3302A618C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6CE1CA1A86D490F30E695BB /* Pods_RealmAWBug.framework */,
+				42052E04DB89BB4893F360EA /* Pods_RealmAWBug_WatchKit_App.framework */,
+				D6FB4A4E1E2CC28DE08AA7E4 /* Pods_RealmAWBug_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB167FDD1FDB138400881C76 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +170,8 @@
 				FB167FFC1FDB138400881C76 /* RealmAWBug WatchKit App */,
 				FB16800B1FDB138400881C76 /* RealmAWBug WatchKit Extension */,
 				FB167FE71FDB138400881C76 /* Products */,
+				A65C948E5CF0DF65CF98BAE6 /* Pods */,
+				C9CF7326F5E6FC3302A618C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +194,9 @@
 				FB167FF01FDB138400881C76 /* Assets.xcassets */,
 				FB167FF21FDB138400881C76 /* LaunchScreen.storyboard */,
 				FB167FF51FDB138400881C76 /* Info.plist */,
+				FB1680241FDB185900881C76 /* CreateBridge.m */,
+				FB1680231FDB185800881C76 /* RealmAWBug-Bridging-Header.h */,
+				FBE80D871FDC1EAC004C2371 /* Share.swift */,
 			);
 			path = RealmAWBug;
 			sourceTree = "<group>";
@@ -146,12 +214,27 @@
 		FB16800B1FDB138400881C76 /* RealmAWBug WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				FB95881D1FDD5799004439D7 /* RealmAWBug WatchKit Extension.entitlements */,
+				FBE80D8D1FDC6B7D004C2371 /* Models */,
 				FB16800C1FDB138400881C76 /* InterfaceController.swift */,
 				FB16800E1FDB138400881C76 /* ExtensionDelegate.swift */,
 				FB1680101FDB138400881C76 /* Assets.xcassets */,
 				FB1680121FDB138400881C76 /* Info.plist */,
 			);
 			path = "RealmAWBug WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FBE80D8D1FDC6B7D004C2371 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBE80D8E1FDC6B7D004C2371 /* Lesson.swift */,
+				FBE80D8F1FDC6B7D004C2371 /* Timegrid.swift */,
+				FBE80D901FDC6B7D004C2371 /* Teacher.swift */,
+				FBE80D911FDC6B7D004C2371 /* Room.swift */,
+				FBE80D921FDC6B7D004C2371 /* Subject.swift */,
+				FBE80D931FDC6B7D004C2371 /* Class.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,10 +244,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB16801D1FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug" */;
 			buildPhases = (
+				B72265CF2A04F9842CAC6DC3 /* [CP] Check Pods Manifest.lock */,
 				FB167FE21FDB138400881C76 /* Sources */,
 				FB167FE31FDB138400881C76 /* Frameworks */,
 				FB167FE41FDB138400881C76 /* Resources */,
 				FB16801C1FDB138400881C76 /* Embed Watch Content */,
+				E127BC43B406B34396DF0DA4 /* [CP] Embed Pods Frameworks */,
+				3138B0448E4B95BBB9F19941 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,8 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB1680191FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug WatchKit App" */;
 			buildPhases = (
+				57F76E07C0C0552E399FA76C /* [CP] Check Pods Manifest.lock */,
 				FB167FF61FDB138400881C76 /* Resources */,
 				FB1680181FDB138400881C76 /* Embed App Extensions */,
+				A760513191DE9EDB2FE2BD29 /* Frameworks */,
+				EF495ECD2C653BB204D1469B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB1680151FDB138400881C76 /* Build configuration list for PBXNativeTarget "RealmAWBug WatchKit Extension" */;
 			buildPhases = (
+				07F92050CC4DE95E3FE48659 /* [CP] Check Pods Manifest.lock */,
 				FB1680031FDB138400881C76 /* Sources */,
 				FB1680041FDB138400881C76 /* Frameworks */,
 				FB1680051FDB138400881C76 /* Resources */,
+				EF965EA0007E825933535F48 /* [CP] Embed Pods Frameworks */,
+				9648EBD9294D2911AAB8F1B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +314,7 @@
 				TargetAttributes = {
 					FB167FE51FDB138400881C76 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					FB167FF71FDB138400881C76 = {
@@ -231,6 +324,14 @@
 					FB1680061FDB138400881C76 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -284,12 +385,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07F92050CC4DE95E3FE48659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmAWBug WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3138B0448E4B95BBB9F19941 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealmAWBug/Pods-RealmAWBug-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmAWBug/Pods-RealmAWBug-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F76E07C0C0552E399FA76C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmAWBug WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9648EBD9294D2911AAB8F1B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmAWBug WatchKit Extension/Pods-RealmAWBug WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72265CF2A04F9842CAC6DC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmAWBug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E127BC43B406B34396DF0DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealmAWBug/Pods-RealmAWBug-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm-iOS/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift-iOS/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmAWBug/Pods-RealmAWBug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF495ECD2C653BB204D1469B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmAWBug WatchKit App/Pods-RealmAWBug WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF965EA0007E825933535F48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealmAWBug WatchKit Extension/Pods-RealmAWBug WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm-watchOS/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift-watchOS/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmAWBug WatchKit Extension/Pods-RealmAWBug WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB167FE21FDB138400881C76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FB167FEC1FDB138400881C76 /* ViewController.swift in Sources */,
+				FBE80D881FDC1EAC004C2371 /* Share.swift in Sources */,
+				FB1680251FDB185900881C76 /* CreateBridge.m in Sources */,
 				FB167FEA1FDB138400881C76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,8 +552,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE80D981FDC6B7D004C2371 /* Subject.swift in Sources */,
+				FBE80D961FDC6B7D004C2371 /* Teacher.swift in Sources */,
 				FB16800F1FDB138400881C76 /* ExtensionDelegate.swift in Sources */,
+				FBE80D991FDC6B7D004C2371 /* Class.swift in Sources */,
+				FBE80D971FDC6B7D004C2371 /* Room.swift in Sources */,
 				FB16800D1FDB138400881C76 /* InterfaceController.swift in Sources */,
+				FBE80D951FDC6B7D004C2371 /* Timegrid.swift in Sources */,
+				FBE80D941FDC6B7D004C2371 /* Lesson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +715,7 @@
 		};
 		FB1680161FDB138400881C76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216BC0E63AFB93516A05A73A /* Pods-RealmAWBug WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +734,7 @@
 		};
 		FB1680171FDB138400881C76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4725E9D9186A5E09612ADE76 /* Pods-RealmAWBug WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -491,8 +753,9 @@
 		};
 		FB16801A1FDB138400881C76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1726D736BA1F49F7B9EBEE76 /* Pods-RealmAWBug WatchKit App.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZXX8B8FA4;
@@ -510,8 +773,9 @@
 		};
 		FB16801B1FDB138400881C76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF5F260F657DBF6DDE2922D /* Pods-RealmAWBug WatchKit App.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZXX8B8FA4;
@@ -529,14 +793,19 @@
 		};
 		FB16801E1FDB138400881C76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34F839B711E97D7A2B9D480 /* Pods-RealmAWBug.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZXX8B8FA4;
 				INFOPLIST_FILE = RealmAWBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.noim.RealmAWBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealmAWBug/RealmAWBug-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -544,14 +813,18 @@
 		};
 		FB16801F1FDB138400881C76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A85BFDDEEB71B3CF3979914 /* Pods-RealmAWBug.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZXX8B8FA4;
 				INFOPLIST_FILE = RealmAWBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.noim.RealmAWBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealmAWBug/RealmAWBug-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

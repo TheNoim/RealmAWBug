@@ -7,15 +7,39 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+    
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        print("sign called");
+        Share.shared.idToken = user.authentication.idToken;
+        for replyHandler in Share.shared.callbacks {
+            replyHandler(["token": Share.shared.idToken]);
+        }
+        Share.shared.callbacks.removeAll();
+    }
+    
+    func application(application: UIApplication,openURL url: NSURL, options: [String: AnyObject]) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url as URL!, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication as! String] as? String, annotation: options[UIApplicationOpenURLOptionsKey.annotation as! String]);
+    }
+    
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //var configureError: NSError?
+        //SSLContext.sharedInstance().configureWithError(&configureError)
+        //assert(configureError == nil, "Error configuring Google services: \(configureError)")
+        
+        GIDSignIn.sharedInstance().clientID = "Your Client ID"
+        GIDSignIn.sharedInstance().serverClientID = "Your server client id"
+        GIDSignIn.sharedInstance().delegate = self
         return true
     }
 
